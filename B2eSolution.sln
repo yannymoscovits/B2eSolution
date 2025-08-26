@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "b2esolution.client", "b2esolution.client\b2esolution.client.esproj", "{554B6363-AD85-6FF2-E057-B40408849374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2eSolution.Server", "B2eSolution.Server\B2eSolution.Server.csproj", "{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{554B6363-AD85-6FF2-E057-B40408849374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554B6363-AD85-6FF2-E057-B40408849374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554B6363-AD85-6FF2-E057-B40408849374}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{554B6363-AD85-6FF2-E057-B40408849374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554B6363-AD85-6FF2-E057-B40408849374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554B6363-AD85-6FF2-E057-B40408849374}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53075A4F-5944-4573-854B-A91E700BE0BA}
+	EndGlobalSection
+EndGlobal
