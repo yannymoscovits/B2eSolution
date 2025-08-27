@@ -1,9 +1,11 @@
 ﻿using B2eSolution.Server.Application.DTOs;
 using B2eSolution.Server.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace B2eSolution.Server.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class ProdutosController : ControllerBase
@@ -17,8 +19,10 @@ public class ProdutosController : ControllerBase
 
     [HttpPost]
     public async Task<IActionResult> Post([FromBody] ProdutoCreateDto dto)
-    { var id = await _service.CriarAsync(dto); return CreatedAtAction(nameof(Get), new { id }, new { id }); }
-
+    {
+        var result = await _service.CriarAsync(dto);
+        return Ok(result);
+    }
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Put(int id, [FromBody] ProdutoUpdateDto dto)
     { await _service.AtualizarAsync(id, dto); return NoContent(); }
