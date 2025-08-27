@@ -44,7 +44,7 @@ Recursos: **autenticação JWT**, senhas com **BCrypt**, **CRUD de produtos** co
 
 ---
 
-## 🔧 Configuração (API)
+## Configuração (API)
 
 ### 1) Connection String (SQL Server)
 Abra `B2eSolution.Server/appsettings.json`:
@@ -52,11 +52,11 @@ Abra `B2eSolution.Server/appsettings.json`:
 ```json
 {
   "ConnectionStrings": {
-    // Para LocalDB (desenvolvimento rápido localhost, sem senha)
-    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=B2eDb;Trusted_Connection=True;MultipleActiveResultSets=true", 
+    // Para LocalDB (desenvolvimento rápido, sem senha)
+    //"DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=B2eDb;Trusted_Connection=True;MultipleActiveResultSets=true",
 
-    // Exemplo para SQL Server com usuário/senha
-    "SqlAuthConnection": "Server=localhost,1433;Database=B2eDb;User Id=sa;Password=SuaSenha123;TrustServerCertificate=True;MultipleActiveResultSets=true"
+    // Exemplo para SQL Server com usuário/senha - Conecte aqui seu Banco de Dados
+    "DefaultConnection": "Server=localhost,1433;Database=B2eDb;User Id=sa;Password=SuaSenha123;TrustServerCertificate=True;MultipleActiveResultSets=true"
   },
 
   "Jwt": {
@@ -73,9 +73,10 @@ Abra `B2eSolution.Server/appsettings.json`:
   },
   "AllowedHosts": "*"
 }
+
 ```
 
-- **Trocar servidor/banco:** ajuste `Server` / `Database` / `User Id`/ `Password`. Troque a instância em /Infraestructure/DependencyInjection.cs
+- **Trocar servidor/banco:** ajuste `Server` / `Database` / `User Id`/ `Password`.
 - <img width="827" height="23" alt="image" src="https://github.com/user-attachments/assets/d594112a-2c5f-462c-a4fc-50603d7c0cd1" />
 
 - **JWT:** substitua `Jwt:Key` por uma chave forte (mín. 32 chars).
@@ -124,13 +125,12 @@ No front você pode usar:
   ```
 ---
 ## Autenticação (JWT)
-
 - **Login:** `POST /api/auth/login`  
   **Body:** `{ "login": "usuario", "senha": "senha" }`  
   **Retorno:** `{ "token": "<jwt>" }`
 - Use o token em todas as rotas protegidas:
   ```
-  Authorization: Bearer <jwt>
+  Authorization: Bearer <jwt> (com tempo de expiração)
   ```
 
 **Senha com BCrypt**: no cadastro de usuário a senha é **hasheada** (nunca em texto puro).  
@@ -150,6 +150,8 @@ No front você pode usar:
 - `POST /api/auth/login`  
 - `POST /api/Addusuarios` 
 
+<img width="1417" height="695" alt="image" src="https://github.com/user-attachments/assets/7c214223-c041-47f6-8665-548c5543e4f0" />
+
 ---
 
 ## Front-end
@@ -158,6 +160,9 @@ No front você pode usar:
 - **Lista de Produtos** com paginação, ordenação por Nome (front-end), exportação Excel.  
 - **Modal de Edição** com valores preenchidos.
 - **Adição de Produtos.
+
+<img width="1903" height="976" alt="image" src="https://github.com/user-attachments/assets/3bd3ec69-0848-4589-970e-b3531384513e" />
+<img width="1876" height="944" alt="image" src="https://github.com/user-attachments/assets/7a9552ef-7a23-40eb-9f88-c996923112aa" />
 
 ---
 
@@ -177,7 +182,6 @@ No front você pode usar:
 ---
 
 ## Troubleshooting
-
 - **Login inválido:** Verifique body `{ login, senha }`.  
 - **Bearer ausente:** Responses 401/403.  
 - **CORS bloqueando:** ajuste `Cors:AllowedOrigins`.  
