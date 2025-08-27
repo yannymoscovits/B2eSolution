@@ -77,8 +77,10 @@ Abra `B2eSolution.Server/appsettings.json`:
 
 - **Trocar servidor/banco:** ajuste `Server` / `Database` / User Id/ Password. Troque a instância em /Infraestructure/DependencyInjection.cs
 - <img width="827" height="23" alt="image" src="https://github.com/user-attachments/assets/d594112a-2c5f-462c-a4fc-50603d7c0cd1" />
+
 - **JWT:** substitua `Jwt:Key` por uma chave forte (mín. 32 chars).
 <img width="479" height="107" alt="image" src="https://github.com/user-attachments/assets/18b38112-c512-4ee5-961e-342b7727f9dd" />
+
 - **CORS:** confirme a origem do front (`5173` via Vite).
 <img width="705" height="248" alt="image" src="https://github.com/user-attachments/assets/c4a63060-47a0-4dcc-885f-195de2caa28a" />
 
