@@ -221,4 +221,4 @@ No front você pode usar:
 
 ## Autor
 **Yanny Dorea Moscovits** — Full Stack .NET  
-LinkedIn: [link aqui]
+LinkedIn: [[link aqui](https://www.linkedin.com/in/yannymoscovits/)]
