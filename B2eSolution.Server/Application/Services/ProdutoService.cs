@@ -13,7 +13,6 @@ public interface IProdutoService
     Task ExcluirAsync(int id);
     Task<List<ProdutoDto>> ListarTodosAsync();
 }
-
 public class ProdutoService : IProdutoService
 {
     private readonly IProdutoRepository _repo;

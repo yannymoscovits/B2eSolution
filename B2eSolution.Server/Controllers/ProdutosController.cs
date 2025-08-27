@@ -12,12 +12,10 @@ public class ProdutosController : ControllerBase
     private readonly IProdutoService _service;
     public ProdutosController(IProdutoService service) => _service = service;
 
-    // ===== LISTAR PRODUTOS =====
     [HttpGet("ListProduto")]
     public async Task<IActionResult> Get([FromQuery] int pagina = 1, [FromQuery] int tamanho = 10, [FromQuery] string ordem = "asc")
         => Ok(await _service.ListarAsync(pagina, tamanho, ordem));
 
-    // ===== ADICIONAR PRODUTO =====
     [HttpPost("AddProduto")]
     public async Task<IActionResult> Post([FromBody] ProdutoCreateDto dto)
     {
@@ -25,7 +23,6 @@ public class ProdutosController : ControllerBase
         return Ok(result);
     }
 
-    // ===== ATUALIZAR PRODUTO =====
     [HttpPut("UpdateProduto/{id:int}")]
     public async Task<IActionResult> Put(int id, [FromBody] ProdutoUpdateDto dto)
     {
@@ -33,7 +30,6 @@ public class ProdutosController : ControllerBase
         return NoContent();
     }
 
-    // ===== DELETAR PRODUTO =====
     [HttpDelete("DeleteProduto/{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {

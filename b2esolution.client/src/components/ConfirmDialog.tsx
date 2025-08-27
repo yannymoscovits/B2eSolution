@@ -10,7 +10,6 @@ type Props = {
     yesLabel?: string
     noLabel?: string
 }
-
 export default function ConfirmDialog({
     open,
     text,

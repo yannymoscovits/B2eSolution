@@ -1,8 +1,6 @@
-﻿// src/pages/RegisterPage.tsx
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { createUsuario } from '../api'
 import '../styles/login.css'
-
 export default function RegisterPage() {
     const [login, setLogin] = useState('')
     const [senha, setSenha] = useState('')

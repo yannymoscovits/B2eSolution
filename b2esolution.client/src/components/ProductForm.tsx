@@ -1,13 +1,10 @@
-﻿// src/components/ProductForm.tsx
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 
 type Props = {
     initial?: any
     onSave: (payload: { nome: string; valor: number }, id?: number) => void | Promise<void>
     onClose: () => void
 }
-
-/** helpers para normalizar vários formatos vindos do backend */
 function getId(p: any): number {
     return Number(p?.id ?? p?.idProduto ?? p?.produtoId ?? p?.Id ?? 0)
 }
@@ -23,13 +20,11 @@ function toNumberPt(v: string): number {
     const n = Number((v ?? '').replace(/\./g, '').replace(',', '.'))
     return Number.isFinite(n) ? n : NaN
 }
-
 export default function ProductForm({ initial, onSave, onClose }: Props) {
     const [nome, setNome] = useState('')
-    const [valor, setValor] = useState('') // string para permitir vírgula
+    const [valor, setValor] = useState('') 
     const [saving, setSaving] = useState(false)
 
-    // Preenche quando abrir/ao trocar item
     useEffect(() => {
         if (initial) {
             setNome(pickName(initial))

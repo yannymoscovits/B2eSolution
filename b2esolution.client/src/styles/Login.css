@@ -1,26 +1,21 @@
 :root {
-    /* Base */
     --bg: #111111;
     --panel: #1b1b1b;
     --text: #f2f2f2;
     --muted: #bbbbbb;
     --border: #292929;
     --shadow: 0 12px 30px rgba(0,0,0,0.4);
-    /* Primária */
     --primary: #2563EB;
     --primary-hover: #1E40AF;
-    /* Secundárias */
     --success: #16A34A;
     --error: #DC2626;
     --warning: #FACC15;
     --accent: #7C3AED;
-    /* Neutras extras */
     --input-bg: #222;
     --placeholder: #777;
 }
 
-/* Reset */
-* {
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -36,14 +31,12 @@ body {
     font-family: "Segoe UI", Roboto, sans-serif;
 }
 
-/* Split screen */
 .login-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* metade imagem, metade login */
+    grid-template-columns: 1fr 1fr; 
     min-height: 100vh;
 }
 
-/* Imagem da esquerda */
 .image-side {
     position: relative;
 }
@@ -55,7 +48,6 @@ body {
     display: block;
 }
 
-/* Lado do login */
 .login-side {
     display: flex;
     align-items: center;
@@ -64,7 +56,6 @@ body {
     padding: 32px;
 }
 
-/* Box login */
 .box-login {
     width: 100%;
     max-width: 400px;
@@ -83,7 +74,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Caixa do form */
 .box {
     background: var(--panel);
     border: 1px solid var(--border);
@@ -100,7 +90,6 @@ body {
         margin-bottom: 14px;
     }
 
-/* Inputs e botão */
 .form {
     display: grid;
     gap: 12px;
@@ -145,15 +134,13 @@ button {
 
     }
 
-/* Links e alertas */
 .muted-link {
     color: white;
     font-size: 14px;
     text-decoration: none;
-    display: block; /* importante */
-    margin-top: 16px; /* controla o espaço */
+    display: block; 
+    margin-top: 16px; 
 }
-
 
     .muted-link:hover {
         color: var(--primary);
@@ -172,7 +159,6 @@ button {
     color: var(--warning);
 }
 
-/* Responsivo */
 @media (max-width: 900px) {
     .login-container {
         grid-template-columns: 1fr;

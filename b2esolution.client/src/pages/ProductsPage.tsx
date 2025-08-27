@@ -5,8 +5,6 @@ import Modal from '../components/ProductModal'
 import ProductForm from '../components/ProductForm'
 import Confirm from '../components/ConfirmDialog'
 import '../styles/product.css'
-
-// ------- Helpers -------
 function getId(p: any): number {
     return Number(p?.id ?? p?.idProduto ?? p?.produtoId ?? p?.Id ?? 0)
 }
@@ -20,8 +18,6 @@ function getPrice(p: any): number {
 }
 
 const money = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' })
-
-// ------- PAGESIZE -------
 export default function ProductsPage() {
     const [allItems, setAllItems] = useState<ProductListItem[]>([])
     const [pagina, setPagina] = useState(1)
@@ -59,7 +55,6 @@ export default function ProductsPage() {
     }
 
     useEffect(() => { loadAll() }, [])
-
     function handleLogout() {
         setToken(null)
         window.location.reload()
@@ -87,7 +82,6 @@ export default function ProductsPage() {
         }
     }
 
-    // ===== Ordenação =====
     const collator = useMemo(() => new Intl.Collator('pt-BR', { sensitivity: 'base', numeric: true }), [])
     const sortedAll = useMemo(() => {
         const arr = [...allItems]
@@ -98,7 +92,6 @@ export default function ProductsPage() {
         return arr
     }, [allItems, ordem, collator])
 
-    // ===== Paginação =====
     const totalItems = sortedAll.length
     const maxPage = Math.max(1, Math.ceil(totalItems / PAGE_SIZE))
     const currentPage = Math.min(pagina, maxPage)
@@ -113,7 +106,6 @@ export default function ProductsPage() {
         setPagina(1)
     }
 
-    // ===== Exportar TODOS para CSV =====
     const exportAllCsv = useCallback(() => {
         const header = ['Nome produto', 'Valor (R$)']
         const rows = sortedAll.map(p => [getName(p), getPrice(p).toFixed(2)])

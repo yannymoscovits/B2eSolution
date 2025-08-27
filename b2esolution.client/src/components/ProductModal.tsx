@@ -10,7 +10,6 @@ type Props = {
     className?: string
     closeOnBackdrop?: boolean
 }
-
 export default function ProductModal({
     open,
     onClose,

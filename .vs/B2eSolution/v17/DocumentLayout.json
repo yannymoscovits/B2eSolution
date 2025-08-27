@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\B2eSolution.Client.esproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.client\\src\\pages\\loginpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\B2eSolution.Client.esproj|solutionrelative:b2esolution.client\\src\\pages\\loginpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\infraestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\infraestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\infraestructure\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\infraestructure\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\infraestructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\infraestructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\infraestructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\infraestructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\infraestructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Program.cs",
               "RelativeDocumentMoniker": "B2eSolution.Server\\Program.cs",
               "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Program.cs",
               "RelativeToolTip": "B2eSolution.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T19:48:08.356Z",
+              "WhenOpened": "2025-08-27T20:07:59.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Infraestructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\DependencyInjection.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Infraestructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:54.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginPage.tsx",
-              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\pages\\LoginPage.tsx",
-              "RelativeDocumentMoniker": "b2esolution.client\\src\\pages\\LoginPage.tsx",
-              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\pages\\LoginPage.tsx",
-              "RelativeToolTip": "b2esolution.client\\src\\pages\\LoginPage.tsx",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-27T19:42:26.797Z",
+              "Title": "BcryptPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Security\\BcryptPasswordHasher.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Infraestructure\\Security\\BcryptPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Security\\BcryptPasswordHasher.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Infraestructure\\Security\\BcryptPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:53.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "B2eSolution.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\appsettings.json",
-              "RelativeToolTip": "B2eSolution.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-27T19:36:49.568Z",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Infraestructure\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:51.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:49.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Infraestructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Infraestructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Infraestructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:46.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Domain\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Domain\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:44.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "B2eSolution.Server\\Domain\\Entities\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T20:07:43.843Z",
               "EditorCaption": ""
             }
           ]

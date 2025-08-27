@@ -1,9 +1,7 @@
-﻿/* ====== escopo da página ====== */
-.products {
+﻿.products {
     --ring: 0 0 0 2px rgba(110,168,254,.35);
 }
 
-    /* utilitários mínimos compatíveis com o snippet */
     .products .w-full {
         width: 100%;
     }
@@ -44,7 +42,6 @@
         transform: translateX(1.5rem);
     }
 
-    /* Topbar enxuta */
     .products .products-topbar {
         display: flex;
         align-items: center;
@@ -70,7 +67,6 @@
             font-size: 20px;
         }
 
-    /* Botões */
     .products .btn {
         font: inherit;
         color: var(--text);
@@ -112,7 +108,6 @@
                 filter: brightness(1.05);
             }
 
-    /* Card / tabela */
     .products .products-card {
         max-width: 1120px;
         margin: 0 auto;
@@ -147,7 +142,6 @@
         background: rgba(255,255,255,.012);
     }
 
-    /* Checkbox */
     .products .ui-Checkbox {
         appearance: none;
         -webkit-appearance: none;
@@ -175,7 +169,6 @@
                 line-height: 1;
             }
 
-    /* Estados / skeleton */
     .products .error-cell {
         color: var(--danger);
         text-align: center;
@@ -199,8 +192,6 @@
         background-size: 300% 100%;
         animation: skp 1.4s ease-in-out infinite;
     }
-
-
 
     .products .w-12 {
         width: 12%;
@@ -232,7 +223,6 @@
     }
 }
 
-/* Pager */
 .products .products-pager {
     max-width: 1120px;
     margin: 10px auto 0;
@@ -246,7 +236,6 @@
     color: var(--muted);
 }
 
-/* Modais menores/clean só nesta página */
 .products .modal {
     width: min(440px, 92vw);
     border-radius: 14px;
@@ -264,7 +253,6 @@
     gap: 10px;
 }
 
-/* Responsivo */
 @media (max-width: 860px) {
     .products .ui-TableHeader {
         display: none;
@@ -285,7 +273,7 @@
         padding: 10px 12px;
     }
 }
-/* Botões exclusivos da paginação */
+
 .products .pager .pager-btn {
     background: color-mix(in oklab, var(--panel) 92%, black 8%);
     border: 1px solid var(--border);
@@ -320,7 +308,6 @@
     margin-left: 5px;
 }
 
-    /* Setinhas via pseudo-elemento (opcional) */
     .products .pager .pager-btn.prev::before {
         content: "←";
         font-weight: 700;
@@ -334,7 +321,6 @@
       
     }
 
-/* Compactação em telas pequenas */
 @media (max-width: 560px) {
     .products .pager {
         gap: 8px;
@@ -352,7 +338,6 @@
     padding-top: 15px;
 }
 
-/* ===== Modais menores/clean – só nesta página ===== */
 .products .modal.modal--sm {
     width: min(420px, 92vw);
 }
@@ -384,7 +369,6 @@
     padding: 14px;
 }
 
-/* Ações com respiro */
 .products .actions {
     display: flex;
     gap: 10px;
@@ -392,7 +376,6 @@
     margin-top: 10px;
 }
 
-/* Botões menores dentro das modais */
 .products .modal button.primary,
 .products .modal button.ghost,
 .products .modal button.danger {
@@ -400,7 +383,6 @@
     border-radius: 10px;
 }
 
-/* Texto de confirmação */
 .products .confirm-text {
     color: var(--text);
 }

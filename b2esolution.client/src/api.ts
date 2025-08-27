@@ -1,4 +1,3 @@
-// src/api.ts
 import type { PagedResult, ProductListItem, ProductCreateDto, ProductUpdateDto } from './types'
 
 const BASE = import.meta.env.VITE_API_BASE ?? 'https://localhost:44341/api'
@@ -9,7 +8,6 @@ export const setToken = (t: string | null) => {
     _token = t
     if (t) localStorage.setItem('token', t); else localStorage.removeItem('token')
 }
-
 function extractAspNetErrorMessage(raw: any): string | null {
     if (!raw || typeof raw !== 'object') return null
     if (raw.errors && typeof raw.errors === 'object') {
@@ -43,7 +41,6 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     return (json ?? (text as unknown)) as T
 }
 
-// ===== AUTH =====
 export async function login(login: string, senha: string) {
     const data = await request<{ token: string }>(LOGIN_PATH, {
         method: 'POST',
@@ -52,8 +49,6 @@ export async function login(login: string, senha: string) {
     setToken(data.token)
     return data
 }
-
-// ===== PRODUTOS =====
 function normalizePaged(raw: any): PagedResult<ProductListItem> {
     if (raw && Array.isArray(raw.items)) {
         return { items: raw.items, page: Number(raw.page ?? 1), pageSize: Number(raw.pageSize ?? raw.items.length ?? 0), total: Number(raw.total ?? raw.items.length ?? 0) }
@@ -86,7 +81,6 @@ function toNumberPt(v: any) {
     return Number.isFinite(n) ? n : 0
 }
 
-// Troque estas duas funções:
 export function createProduto(dto: any) {
     const body = {
         nome: dto?.nome ?? dto?.name ?? dto?.productName ?? '',
@@ -105,8 +99,6 @@ export function updateProduto(id: number, dto: any) {
 export function deleteProduto(id: number) {
     return request<void>(`/Produtos/DeleteProduto/${id}`, { method: 'DELETE' })
 }
-
-// ===== ADDUSUARIOS =====
 
 export async function createUsuario(dto: { login: string; senha: string }) {
     return request<void>(`/AddUsuario`, {

@@ -2,12 +2,10 @@
 import { login as loginApi } from '../api'
 import '../styles/login.css'
 import { Link } from 'react-router-dom'
-
 export default function LoginPage({ onLoggedIn }: { onLoggedIn: () => void }) {
     const [login, setLogin] = useState('')
     const [senha, setSenha] = useState('')
     const [loading, setLoading] = useState(false)
-
 
     async function handleSubmit(e: React.FormEvent) {
         e.preventDefault()

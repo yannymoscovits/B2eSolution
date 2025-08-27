@@ -44,7 +44,6 @@ body {
     max-width: 1100px;
     margin: 0 auto 12px;
 }
-
     .topbar .title {
         font-size: 28px;
         font-weight: 700;
@@ -169,7 +168,7 @@ button:disabled {
     justify-content: flex-end;
     margin-top: 8px;
 }
-/* ===== THEME POLISH ===== */
+
 :root {
     --bg-grad: radial-gradient(1200px 600px at 20% -10%, rgba(110,168,254,.08), transparent 40%), radial-gradient(900px 500px at 90% 0%, rgba(255,107,107,.06), transparent 40%);
     --panel-elev: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
@@ -177,12 +176,10 @@ button:disabled {
     --ring: 0 0 0 2px rgba(110,168,254,.35);
 }
 
-/* Fundo com leve gradiente */
 body {
     background: var(--bg), var(--bg-grad);
 }
 
-/* ===== CONTAINERS ===== */
 .page {
     padding: clamp(16px, 3vw, 32px);
 }
@@ -220,7 +217,7 @@ body {
 .card {
     max-width: 1120px;
     margin: 18px auto;
-    padding: 0; /* tabela ocupa a área toda */
+    padding: 0;
     background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0)), var(--panel);
     border: 1px solid color-mix(in oklab, var(--border) 80%, white 20%);
     border-radius: 16px;
@@ -228,7 +225,6 @@ body {
     box-shadow: var(--shadow-lg);
 }
 
-/* ===== BUTTONS ===== */
 button, a.ghost {
     transition: transform .08s ease, background .2s ease, border-color .2s ease, box-shadow .2s ease;
 }
@@ -256,7 +252,7 @@ button, a.ghost {
         color: var(--text);
         padding: 10px 14px;
         border-radius: 12px;
-        text-decoration: none; /* link vira botão */
+        text-decoration: none;
         display: inline-flex;
         align-items: center;
         gap: 8px;
@@ -284,7 +280,6 @@ button, a.ghost {
             box-shadow: 0 0 0 2px rgba(255,107,107,.25);
         }
 
-/* ===== TABLE ===== */
 .table-wrapper {
     overflow: auto;
 }
@@ -323,7 +318,6 @@ button, a.ghost {
 .table tbody tr:nth-child(even) td {
     background: rgba(255,255,255,.012);
 }
-/* listras sutis */
 
 .th-sort {
     display: inline-flex;
@@ -336,12 +330,10 @@ button, a.ghost {
     opacity: .9;
 }
 
-/* Preço em mono para alinhar melhor (opcional) */
 .table td:nth-child(2) {
     font-variant-numeric: tabular-nums;
 }
 
-/* ===== STATES ===== */
 .error-cell {
     color: var(--danger);
     text-align: center;
@@ -354,7 +346,6 @@ button, a.ghost {
     padding: 28px 12px;
 }
 
-/* ===== SKELETON ===== */
 .skeleton-row td {
     height: 56px;
 }
@@ -389,7 +380,6 @@ button, a.ghost {
     }
 }
 
-/* ===== PAGER ===== */
 .pager {
     display: flex;
     align-items: center;
@@ -408,7 +398,6 @@ button, a.ghost {
         border-radius: 999px;
     }
 
-/* ===== RESPONSIVO ===== */
 @media (max-width: 860px) {
     .topbar {
         padding: 10px 12px;
