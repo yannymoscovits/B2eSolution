@@ -75,7 +75,7 @@ Abra `B2eSolution.Server/appsettings.json`:
 }
 ```
 
-- **Trocar servidor/banco:** ajuste `Server` / `Database` / User Id/ Password. Troque a instância em /Infraestructure/DependencyInjection.cs
+- **Trocar servidor/banco:** ajuste `Server` / `Database` / `User Id`/ `Password`. Troque a instância em /Infraestructure/DependencyInjection.cs
 - <img width="827" height="23" alt="image" src="https://github.com/user-attachments/assets/d594112a-2c5f-462c-a4fc-50603d7c0cd1" />
 
 - **JWT:** substitua `Jwt:Key` por uma chave forte (mín. 32 chars).
