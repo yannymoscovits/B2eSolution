@@ -162,10 +162,10 @@ C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\B2eSolut.B7519E1F.Up2Date
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\B2eSolution.Server.dll
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\refint\B2eSolution.Server.dll
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\B2eSolution.Server.pdb
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\B2eSolution.Server.genruntimeconfig.cache
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\ref\B2eSolution.Server.dll
+C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

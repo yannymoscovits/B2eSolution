@@ -1,0 +1,184 @@
+:root {
+    /* Base */
+    --bg: #111111;
+    --panel: #1b1b1b;
+    --text: #f2f2f2;
+    --muted: #bbbbbb;
+    --border: #292929;
+    --shadow: 0 12px 30px rgba(0,0,0,0.4);
+    /* Primária */
+    --primary: #2563EB;
+    --primary-hover: #1E40AF;
+    /* Secundárias */
+    --success: #16A34A;
+    --error: #DC2626;
+    --warning: #FACC15;
+    --accent: #7C3AED;
+    /* Neutras extras */
+    --input-bg: #222;
+    --placeholder: #777;
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+/* Split screen */
+.login-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* metade imagem, metade login */
+    min-height: 100vh;
+}
+
+/* Imagem da esquerda */
+.image-side {
+    position: relative;
+}
+
+.side-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Lado do login */
+.login-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    padding: 32px;
+}
+
+/* Box login */
+.box-login {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-logo {
+    width: 200px;
+    margin: 0 auto 20px;
+    display: block;
+    margin-left: 90px;
+}
+
+.box-login h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Caixa do form */
+.box {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    text-align: left;
+}
+
+    .box h2 {
+        color: var(--text);
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+
+/* Inputs e botão */
+.form {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+input, button {
+    padding: 12px 14px;
+    border-radius: 10px;
+    font: inherit;
+    border: 1px solid var(--border);
+}
+
+input {
+    background: var(--input-bg);
+    color: var(--text);
+}
+
+    input::placeholder {
+        color: var(--placeholder);
+    }
+
+button {
+    background: #002a48;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background .2s, transform .1s;
+}
+
+    button:hover {
+        background: var(--primary-hover);
+    }
+
+    button:active {
+        transform: translateY(1px);
+    }
+
+    button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+
+    }
+
+/* Links e alertas */
+.muted-link {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block; /* importante */
+    margin-top: 16px; /* controla o espaço */
+}
+
+
+    .muted-link:hover {
+        color: var(--primary);
+        text-decoration: underline;
+    }
+
+.alert-success {
+    color: var(--success);
+}
+
+.alert-error {
+    color: var(--error);
+}
+
+.alert-warning {
+    color: var(--warning);
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+    .login-container {
+        grid-template-columns: 1fr;
+    }
+
+    .image-side {
+        display: none;
+    }
+}

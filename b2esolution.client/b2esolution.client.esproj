@@ -8,4 +8,18 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\NovaPasta1\**" />
+    <None Remove="src\NovaPasta\**" />
+    <TypeScriptConfiguration Remove="src\NovaPasta1\**" />
+    <TypeScriptConfiguration Remove="src\NovaPasta\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="img\fundo.png" />
+    <None Remove="img\istockphoto-1460853312-612x612.jpg" />
+    <None Remove="src\pages\ProductForm.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
 </Project>

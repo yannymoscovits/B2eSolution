@@ -1,0 +1,144 @@
+:root {
+    --bg: #0b1020;
+    --panel: #141b34;
+    --muted: #8ea0ff;
+    --txt: #e9ecff;
+    --acc: #6aa9ff;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(120deg,#0b1020,#0e1330);
+    font-family: Inter,system-ui,Arial;
+    color: var(--txt)
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px
+}
+
+.card {
+    background: var(--panel);
+    border: 1px solid #2a355f;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.35);
+    padding: 24px;
+    padding-top: 15px;
+}
+
+.h1 {
+    font-size: 28px;
+    margin: 0 0 16px;
+    color: #fff
+}
+
+.muted {
+    color: var(--muted)
+}
+
+.input {
+    width: 100%;
+    background: #0f1530;
+    border: 1px solid #2a355f;
+    border-radius: 12px;
+    padding: 12px;
+    color: #dfe6ff
+}
+
+.btn {
+    background: var(--acc);
+    border: 0;
+    border-radius: 12px;
+    padding: 10px 16px;
+    color: #06122a;
+    font-weight: 700;
+    cursor: pointer
+}
+
+    .btn.secondary {
+        background: #1d274d;
+        color: #cfe0ff
+    }
+
+    .btn.danger {
+        background: #ff5774;
+        color: white
+    }
+
+.row {
+    display: flex;
+    gap: 12px;
+    align-items: center
+}
+
+    .row.wrap {
+        flex-wrap: wrap
+    }
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    
+}
+
+    .table th, .table td {
+        padding: 12px;
+        border-bottom: 1px solid #2a355f
+    }
+
+    .table th {
+        color: #b9c7ff;
+        text-align: left
+    }
+
+.right {
+    margin-left: auto
+}
+
+.badge {
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #1d274d;
+    color: #b9c7ff;
+    font-size: 12px
+}
+
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.modal {
+    background: #0f1530;
+    border: 1px solid #2a355f;
+    border-radius: 16px;
+    max-width: 460px;
+    width: 92%;
+    padding: 18px
+}
+
+    .modal .title {
+        font-size: 20px;
+        margin: 0 0 8px
+    }
+
+.pagination {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.clickable {
+    cursor: pointer
+}

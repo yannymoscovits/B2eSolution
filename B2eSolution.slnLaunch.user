@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "b2esolution.client\\b2esolution.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "B2eSolution.Server\\B2eSolution.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
