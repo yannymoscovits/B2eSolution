@@ -12,6 +12,7 @@ Recursos: **autenticação JWT**, senhas com **BCrypt**, **CRUD de produtos** co
 ## Estrutura do Repositório
 
 ```
+/
 ├─ B2eSolution.Api/                 # Back-end (ASP.NET Core 8 + EF Core)
 │  ├─ Properties/                      # Configurações do projeto .NET
 │  │  └─ launchSettings.json              # Perfis de execução da aplicação
