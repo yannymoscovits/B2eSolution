@@ -1,9 +1,9 @@
-﻿using B2eSolution.Server.Application.Interfaces;
-using B2eSolution.Server.Domain.Entities;
-using B2eSolution.Server.Infrastructure.Data;
+﻿using B2eSolution.Api.Application.Interfaces;
+using B2eSolution.Api.Domain.Entities;
+using B2eSolution.Api.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace B2eSolution.Server.Infrastructure.Repositories;
+namespace B2eSolution.Api.Infrastructure.Repositories;
 public class ProdutoRepository : IProdutoRepository
 {
     private readonly AppDbContext _db;

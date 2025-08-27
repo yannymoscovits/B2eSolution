@@ -1,4 +1,4 @@
-﻿namespace B2eSolution.Server.Domain.Entities
+﻿namespace B2eSolution.Api.Domain.Entities
 {
     public class Produto
     {

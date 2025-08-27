@@ -1,9 +1,9 @@
-﻿using B2eSolution.Server.Application.Common;
-using B2eSolution.Server.Application.DTOs;
-using B2eSolution.Server.Application.Interfaces;
-using B2eSolution.Server.Domain.Entities;
+﻿using B2eSolution.Api.Application.Common;
+using B2eSolution.Api.Application.DTOs;
+using B2eSolution.Api.Application.Interfaces;
+using B2eSolution.Api.Domain.Entities;
 
-namespace B2eSolution.Server.Application.Services;
+namespace B2eSolution.Api.Application.Services;
 
 public interface IProdutoService
 {

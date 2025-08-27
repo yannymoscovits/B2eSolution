@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace B2eSolution.Server.Migrations
+namespace B2eSolution.Api.Migrations
 {
     /// <inheritdoc />
     public partial class AddUsuario : Migration

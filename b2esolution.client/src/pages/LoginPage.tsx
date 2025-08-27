@@ -51,7 +51,7 @@ export default function LoginPage({ onLoggedIn }: { onLoggedIn: () => void }) {
                                 type="text"
                                 name="login"
                                 id="username"
-                                placeholder="usu\u00e1rio"
+                                placeholder="usuário"
                                 value={login}
                                 onChange={(e) => setLogin(e.target.value)}
                                 autoComplete="username"

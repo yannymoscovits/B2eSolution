@@ -1,6 +1,6 @@
-﻿using B2eSolution.Server.Application.DTOs;
-using B2eSolution.Server.Domain.Entities;
-using B2eSolution.Server.Infrastructure.Data;
+﻿using B2eSolution.Api.Application.DTOs;
+using B2eSolution.Api.Domain.Entities;
+using B2eSolution.Api.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 public interface IUsuarioService

@@ -1,5 +1,4 @@
-﻿// src/pages/ProductsPage.tsx
-import { useEffect, useState, useCallback, useMemo } from 'react'
+﻿import { useEffect, useState, useCallback, useMemo } from 'react'
 import { listProdutos, deleteProduto, createProduto, updateProduto, setToken } from '../api'
 import type { ProductListItem, ProductCreateDto, ProductUpdateDto } from '../types'
 import Modal from '../components/ProductModal'

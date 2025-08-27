@@ -1,5 +1,5 @@
-﻿using B2eSolution.Server.Domain.Entities;
-namespace B2eSolution.Server.Application.Interfaces;
+﻿using B2eSolution.Api.Domain.Entities;
+namespace B2eSolution.Api.Application.Interfaces;
 public interface IUsuarioRepository
 {
     Task<Usuario?> GetByLoginAsync(string login);

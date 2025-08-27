@@ -1,13 +1,13 @@
-﻿using B2eSolution.Server.Application.Interfaces;
-using B2eSolution.Server.Application.Services;
-using B2eSolution.Server.Infrastructure.Data;
-using B2eSolution.Server.Infrastructure.Repositories;
-using B2eSolution.Server.Infrastructure.Security;
+﻿using B2eSolution.Api.Application.Interfaces;
+using B2eSolution.Api.Application.Services;
+using B2eSolution.Api.Infrastructure.Data;
+using B2eSolution.Api.Infrastructure.Repositories;
+using B2eSolution.Api.Infrastructure.Security;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace B2eSolution.Server.Infrastructure;
+namespace B2eSolution.Api.Infrastructure;
 
 public static class DependencyInjection
 {

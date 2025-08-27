@@ -1,6 +1,6 @@
-using B2eSolution.Server.Infrastructure;
-using B2eSolution.Server.Infrastructure.Data;
-using B2eSolution.Server.Application.Interfaces;
+using B2eSolution.Api.Infrastructure;
+using B2eSolution.Api.Infrastructure.Data;
+using B2eSolution.Api.Application.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -116,7 +116,7 @@ using (var scope = app.Services.CreateScope())
     var hasher = scope.ServiceProvider.GetRequiredService<IPasswordHasher>();
     if (!db.Usuarios.Any())
     {
-        db.Usuarios.Add(new B2eSolution.Server.Domain.Entities.Usuario
+        db.Usuarios.Add(new B2eSolution.Api.Domain.Entities.Usuario
         {
             Login = "admin",
             Senha = hasher.Hash("Admin@123")

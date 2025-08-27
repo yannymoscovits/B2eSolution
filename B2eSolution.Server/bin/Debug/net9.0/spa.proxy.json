@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:57499",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\..\\b2esolution.client",
+"WorkingDirectory": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\..\\B2eSolution.Client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -1,7 +1,7 @@
-﻿using B2eSolution.Server.Application.Interfaces;
+﻿using B2eSolution.Api.Application.Interfaces;
 using BCryptNet = BCrypt.Net.BCrypt;
 
-namespace B2eSolution.Server.Infrastructure.Security;
+namespace B2eSolution.Api.Infrastructure.Security;
 public class BcryptPasswordHasher : IPasswordHasher
 {
     public string Hash(string plain) => BCrypt.Net.BCrypt.HashPassword(plain);

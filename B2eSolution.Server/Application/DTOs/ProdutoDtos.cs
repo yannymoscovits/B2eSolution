@@ -1,4 +1,4 @@
-﻿namespace B2eSolution.Server.Application.DTOs
+﻿namespace B2eSolution.Api.Application.DTOs
 {
     public record ProdutoDto(int IdProduto, string Nome, decimal Valor);
     public record ProdutoCreateDto(string Nome, decimal Valor);

@@ -1,7 +1,7 @@
-﻿using B2eSolution.Server.Application.DTOs;
-using B2eSolution.Server.Application.Interfaces;
+﻿using B2eSolution.Api.Application.DTOs;
+using B2eSolution.Api.Application.Interfaces;
 
-namespace B2eSolution.Server.Application.Services;
+namespace B2eSolution.Api.Application.Services;
 public interface IAuthService { Task<bool> LoginAsync(LoginRequest req); }
 
 public class AuthService : IAuthService

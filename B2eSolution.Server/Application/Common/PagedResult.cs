@@ -1,4 +1,4 @@
-﻿namespace B2eSolution.Server.Application.Common
+﻿namespace B2eSolution.Api.Application.Common
 {
     public class PagedResult<T>
     {

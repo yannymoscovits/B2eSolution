@@ -1,6 +1,6 @@
-@B2eSolution.Server_HostAddress = http://localhost:5042
+@B2eSolution.Api_HostAddress = http://localhost:5042
 
-GET {{B2eSolution.Server_HostAddress}}/weatherforecast/
+GET {{B2eSolution.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

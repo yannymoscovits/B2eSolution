@@ -1,7 +1,7 @@
-﻿using B2eSolution.Server.Domain.Entities;
+﻿using B2eSolution.Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace B2eSolution.Server.Infrastructure.Data;
+namespace B2eSolution.Api.Infrastructure.Data;
 
 public class AppDbContext : DbContext
 {

@@ -77,7 +77,7 @@ export async function listProdutos(params?: { pagina?: number; tamanho?: number;
     const tamanho = params?.tamanho ?? 10
     const ordem = params?.ordem ?? 'asc'
     const qs = new URLSearchParams({ pagina: String(pagina), tamanho: String(tamanho), ordem })
-    const raw = await request<any>(`/produtos?${qs.toString()}`)
+    const raw = await request<any>(`/Produtos/ListProduto?${qs.toString()}`)
     return normalizePaged(raw)
 }
 
@@ -92,7 +92,7 @@ export function createProduto(dto: any) {
         nome: dto?.nome ?? dto?.name ?? dto?.productName ?? '',
         valor: toNumberPt(dto?.valor ?? dto?.preco ?? dto?.price ?? dto?.Value),
     }
-    return request<number | { id: number }>(`/produtos`, { method: 'POST', body: JSON.stringify(body) })
+    return request<number | { id: number }>(`/Produtos/AddProduto`, { method: 'POST', body: JSON.stringify(body) })
 }
 
 export function updateProduto(id: number, dto: any) {
@@ -100,16 +100,16 @@ export function updateProduto(id: number, dto: any) {
         nome: dto?.nome ?? dto?.name ?? dto?.productName ?? '',
         valor: toNumberPt(dto?.valor ?? dto?.preco ?? dto?.price ?? dto?.Value),
     }
-    return request<void>(`/produtos/${id}`, { method: 'PUT', body: JSON.stringify(body) })
+    return request<void>(`/Produtos/UpdateProduto/${id}`, { method: 'PUT', body: JSON.stringify(body) })
 }
 export function deleteProduto(id: number) {
-    return request<void>(`/produtos/${id}`, { method: 'DELETE' })
+    return request<void>(`/Produtos/DeleteProduto/${id}`, { method: 'DELETE' })
 }
 
 // ===== ADDUSUARIOS =====
 
 export async function createUsuario(dto: { login: string; senha: string }) {
-    return request<void>(`/usuarios`, {
+    return request<void>(`/AddUsuario`, {
         method: 'POST',
         body: JSON.stringify(dto),
     })

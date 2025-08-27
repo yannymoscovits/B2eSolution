@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("B2eSolution.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdd22b8626f15768668e4a20add32f596f377dab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9504ee6da975d9142987925dff817ebf8ccc30e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("B2eSolution.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("B2eSolution.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

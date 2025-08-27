@@ -3,11 +3,11 @@
     "Name": "Novo Perfil",
     "Projects": [
       {
-        "Path": "b2esolution.client\\b2esolution.client.esproj",
+        "Path": "b2esolution.client\\B2eSolution.Client.esproj",
         "Action": "Start"
       },
       {
-        "Path": "B2eSolution.Server\\B2eSolution.Server.csproj",
+        "Path": "B2eSolution.Server\\B2eSolution.Api.csproj",
         "Action": "Start"
       }
     ]

@@ -1,13 +1,13 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using B2eSolution.Server.Application.DTOs;
-using B2eSolution.Server.Application.Services;
+using B2eSolution.Api.Application.DTOs;
+using B2eSolution.Api.Application.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
-namespace B2eSolution.Server.Controllers;
+namespace B2eSolution.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

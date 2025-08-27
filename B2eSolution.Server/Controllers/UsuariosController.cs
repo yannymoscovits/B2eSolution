@@ -1,8 +1,8 @@
-﻿using B2eSolution.Server.Application.DTOs;
+﻿using B2eSolution.Api.Application.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/AddUsuario")]
 public class UsuariosController : ControllerBase
 {
     private readonly IUsuarioService _svc;

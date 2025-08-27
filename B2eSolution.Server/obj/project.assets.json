@@ -4944,9 +4944,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\B2eSolution.Server.csproj",
-      "projectName": "B2eSolution.Server",
-      "projectPath": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\B2eSolution.Server.csproj",
+      "projectUniqueName": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\B2eSolution.Api.csproj",
+      "projectName": "B2eSolution.Api",
+      "projectPath": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\B2eSolution.Api.csproj",
       "packagesPath": "C:\\Users\\yanny\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\obj\\",
       "projectStyle": "PackageReference",

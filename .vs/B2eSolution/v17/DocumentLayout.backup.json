@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\b2esolution.client.esproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.client\\src\\pages\\productspage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\b2esolution.client.esproj|solutionrelative:b2esolution.client\\src\\pages\\productspage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\b2esolution.client.esproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.client\\src\\pages\\loginpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\b2esolution.client.esproj|solutionrelative:b2esolution.client\\src\\pages\\loginpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\b2esolution.client.esproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.client\\src\\styles\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{554B6363-AD85-6FF2-E057-B40408849374}|b2esolution.client\\b2esolution.client.esproj|solutionrelative:b2esolution.client\\src\\styles\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|c:\\users\\yanny\\desktop\\b2esolution\\b2esolution\\b2esolution.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CC0B906-C6AE-48FD-A908-AA5BFE6EBB27}|B2eSolution.Server\\B2eSolution.Api.csproj|solutionrelative:b2esolution.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\styles\\Login.css",
-              "RelativeDocumentMoniker": "b2esolution.client\\src\\styles\\Login.css",
-              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\styles\\Login.css",
-              "RelativeToolTip": "b2esolution.client\\src\\styles\\Login.css",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAH4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-27T18:26:39.334Z",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.tsx",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\pages\\LoginPage.tsx",
+              "RelativeDocumentMoniker": "b2esolution.client\\src\\pages\\LoginPage.tsx",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\pages\\LoginPage.tsx",
+              "RelativeToolTip": "b2esolution.client\\src\\pages\\LoginPage.tsx",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-27T19:42:26.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsPage.tsx",
-              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\pages\\ProductsPage.tsx",
-              "RelativeDocumentMoniker": "b2esolution.client\\src\\pages\\ProductsPage.tsx",
-              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\b2esolution.client\\src\\pages\\ProductsPage.tsx",
-              "RelativeToolTip": "b2esolution.client\\src\\pages\\ProductsPage.tsx",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAcwLUAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-08-27T17:38:56.177Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "B2eSolution.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\yanny\\Desktop\\B2eSolution\\B2eSolution\\B2eSolution.Server\\appsettings.json",
+              "RelativeToolTip": "B2eSolution.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-27T19:36:49.568Z",
               "EditorCaption": ""
             }
           ]
