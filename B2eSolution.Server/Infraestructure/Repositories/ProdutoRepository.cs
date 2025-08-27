@@ -4,7 +4,6 @@ using B2eSolution.Server.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace B2eSolution.Server.Infrastructure.Repositories;
-
 public class ProdutoRepository : IProdutoRepository
 {
     private readonly AppDbContext _db;
@@ -13,7 +12,7 @@ public class ProdutoRepository : IProdutoRepository
     public async Task<(int total, List<Produto> itens)> GetPagedAsync(int pagina, int tamanho, bool desc)
     {
         var q = _db.Produtos.AsNoTracking();
-        q = desc ? q.OrderByDescending(p => p.Nome) : q.OrderBy(p => p.Nome);
+        q = desc ? q.OrderByDescending(p => p.IdProduto) : q.OrderBy(p => p.IdProduto);
         var total = await q.CountAsync();
         var itens = await q.Skip((pagina - 1) * tamanho).Take(tamanho).ToListAsync();
         return (total, itens);
