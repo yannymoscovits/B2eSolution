@@ -9,7 +9,6 @@ C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\B2eSolution.Server.pdb
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\Azure.Identity.dll
-C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\DevOne.Security.Cryptography.BCrypt.dll
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\BCrypt.Net-Next.dll
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\Humanizer.dll
 C:\Users\yanny\Desktop\B2eSolution\B2eSolution\B2eSolution.Server\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
