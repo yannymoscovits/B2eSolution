@@ -111,7 +111,6 @@ Abra `B2eSolution.Server/appsettings.json`:
 
 - **JWT:** substitua `Jwt:Key` por uma chave forte (mín. 32 chars).
 <img width="479" height="107" alt="image" src="https://github.com/user-attachments/assets/18b38112-c512-4ee5-961e-342b7727f9dd" />
-![Uploading image.png…]()
 
 - **CORS:** confirme a origem do front (`5173` via Vite).
 <img width="705" height="248" alt="image" src="https://github.com/user-attachments/assets/c4a63060-47a0-4dcc-885f-195de2caa28a" />
