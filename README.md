@@ -12,24 +12,53 @@ Recursos: **autenticação JWT**, senhas com **BCrypt**, **CRUD de produtos** co
 ## Estrutura do Repositório
 
 ```
-/
-├─ B2eSolution.Api/        # API .NET 8 (todas as camadas em pastas)
-│  ├─ Application/            # Casos de uso, DTOs, validações
-│  ├─ Controllers/            # Endpoints REST
-│  ├─ Domain/
-│  │  └─ Entities/            # Entidades (Usuario, Produto, etc.)
-│  ├─ Infraestructure/        # EF Core, Repositórios, Context, Configs
-│  ├─ Migrations/             # Histórico de migrations
-│  ├─ appsettings.json        # Connection strings, JWT, CORS, etc.
-│  └─ Program.cs              # Bootstrap da API
+├─ B2eSolution.Api/                 # Back-end (ASP.NET Core 8 + EF Core)
+│  ├─ Properties/                      # Configurações do projeto .NET
+│  │  └─ launchSettings.json              # Perfis de execução da aplicação
+│  ├─ Application/                     # Casos de uso e regras de aplicação
+│  │  ├─ Common/                          # Helpers e utilitários
+│  │  ├─ DTOs/                            # Objetos de transferência de dados
+│  │  ├─ Interfaces/                      # Contratos (ex: serviços, repositórios)
+│  │  └─ Services/                        # Implementações da lógica de aplicação
+│  ├─ Controllers/                     # Endpoints REST da API
+│  ├─ Domain/                          # Camada de domínio
+│  │  └─ Entities/                        # Entidades de negócio (Usuario, Produto, etc.)
+│  ├─ Infraestructure/                 # Implementações de persistência e segurança
+│  │  ├─ Data/                            # DbContext e configurações EF Core
+│  │  ├─ Repositories/                    # Repositórios concretos (CRUD, queries)
+│  │  ├─ Security/                        # Autenticação e JWT
+│  │  └─ DependencyInjection.cs           # Registro da injeção de dependências
+│  ├─ Migrations/                      # Histórico de migrations do banco
+│  ├─ appsettings.json                 # Configurações (conexão, JWT, CORS, etc.)
+│  └─ Program.cs                       # Ponto de entrada da API (.NET 8)
 │
-└─ b2esolution.client/        # Front-end React + Vite + TS
-   ├─ src/
-   │  ├─ api/                 # Funções de request (fetch)
-   │  ├─ components/          # UI e modais
-   │  ├─ pages/               # Login, Produtos
-   │  └─ types.ts             # Tipagens (DTOs/ViewModels)
-   └─ vite.config.ts
+├─ B2eSolution.Client/              # Front-end (React + Vite + TypeScript)
+│  ├─ .vscode/                          # Configurações do VSCode
+│  ├─ img/                              # Imagens auxiliares
+│  ├─ public/                           # Arquivos estáticos públicos (favicon, etc.)
+│  ├─ src/                              # Código-fonte principal
+│  │  ├─ assets/                           # Recursos estáticos (imagens, ícones, fontes)
+│  │  ├─ components/                       # Componentes reutilizáveis da interface
+│  │  ├─ pages/                            # Páginas (views) da aplicação
+│  │  ├─ styles/                           # Estilos globais e específicos
+│  │  ├─ api.ts                            # Cliente HTTP (requisições para a API)
+│  │  ├─ App.tsx                           # Componente raiz da aplicação React
+│  │  ├─ App.css                           # Estilos globais da aplicação
+│  │  ├─ index.css                         # Estilos base do projeto
+│  │  ├─ main.tsx                          # Arquivo inicial do React (DOM render)
+│  │  ├─ types.ts                          # Definições de tipos e DTOs (TypeScript)
+│  │  └─ vite-env.d.ts                     # Tipagens automáticas do Vite
+│  ├─ .env                              # Variáveis de ambiente (API URL, etc.)
+│  ├─ .gitignore                        # Arquivos/pastas ignorados pelo Git
+│  ├─ b2eLogo.png                       # Logo da aplicação
+│  ├─ CHANGELOG.md                      # Histórico de alterações do projeto
+│  ├─ eslint.config.js                  # Configuração do ESLint
+│  ├─ index.html                        # Template principal do React
+│  ├─ package.json                      # Dependências e scripts do projeto
+│  ├─ README.md                         # Documentação do client
+│  ├─ tsconfig.json                     # Configuração do TypeScript
+│  └─ vite.config.ts                    # Configuração do Vite
+
 ```
 
 > Observação: este projeto segue **Clean Architecture “lite”** (por pastas). A separação de responsabilidades está mantida, mas **num único projeto .NET** para simplificar o setup.
